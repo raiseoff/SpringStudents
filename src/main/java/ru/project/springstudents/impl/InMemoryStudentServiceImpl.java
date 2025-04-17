@@ -10,10 +10,26 @@ import java.util.List;
 public class InMemoryStudentServiceImpl implements StudentService {
     @Override
     public List<Student> findAllStudent() {
-        return List.of(
-                Student.builder().firstName("Олег").email("oleg1@gmail.com").age(52).build(),
-                Student.builder().firstName("Олег2").email("oleg2@gmail.com").age(52).build(),
-                Student.builder().firstName("Олег3").email("oleg3@gmail.com").age(52).build()
-        );
+        return null;
+    }
+
+    @Override
+    public Student saveStudent(Student student) {
+        return null;
+    }
+
+    @Override
+    public Student findByEmail(String email) {
+        return null;
+    }
+
+    @Override
+    public Student updateStudent(Student student) {
+        return null;
+    }
+
+    @Override
+    public Student deleteStudent(String email) {
+        return null;
     }
 }
