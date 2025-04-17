@@ -16,7 +16,6 @@ import java.util.List;
 // (Spring добавляет Service и Controller в контекст. Они оба содержат аннотацию компонент. И раз service - StudentService, то Spring внедрит экземпляр в контроллер через конструктор.
 public class StudentController {
 
-
     private final StudentService service;
 
     @GetMapping("")
